@@ -33,23 +33,30 @@ router.get('/:id', (req, res) => {
 });
 
   // create a new category
-  router.post('/', (req, res) => {
-    Category.create(req.body)
-    .then((newCategory) => {
-      res.json(newCategory);
-    })
-    .catch((err) => {
-      res.json(err);
-    });
+router.post('/', (req, res) => {
+  Category.create(req.body)
+  .then((newCategory) => {
+    res.json(newCategory);
+  })
+  .catch((err) => {
+    res.json(err);
   });
-
-
-
-
-
-router.put('/:id', (req, res) => {
-  // update a category by its `id` value
 });
+
+  // update a category by its `id` value
+router.put('/:id', (req, res) => {
+  Category.update(req.body, {
+    where: { id: req.params.id, },
+  })
+  .then((updatedCategory) => {
+    res.json(updatedCategory);
+  })
+  .catch((err) => res.json(err));  
+});
+
+
+
+
 
 router.delete('/:id', (req, res) => {
   // delete a category by its `id` value

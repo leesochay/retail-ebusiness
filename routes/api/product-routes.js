@@ -3,7 +3,6 @@ const { Product, Category, Tag, ProductTag } = require('../../models');
 
 // The `/api/products` endpoint
 
-
 router.get('/', (req, res) => {
   // find all products
   Product.findAll(
@@ -34,9 +33,6 @@ router.get('/:id', (req, res) => {
     res.json(err);
   });
 });
-
-
-
 
 
 // create new product
@@ -71,6 +67,7 @@ router.post('/', (req, res) => {
     });
 });
 
+
 // update product
 router.put('/:id', (req, res) => {
   // update product data
@@ -81,7 +78,6 @@ router.put('/:id', (req, res) => {
   })
     .then((product) => {
       if (req.body.tagIds && req.body.tagIds.length) {
-
         ProductTag.findAll({
           where: { product_id: req.params.id }
         }).then((productTags) => {
@@ -95,7 +91,6 @@ router.put('/:id', (req, res) => {
                 tag_id,
               };
             });
-
           // figure out which ones to remove
           const productTagsToRemove = productTags
             .filter(({ tag_id }) => !req.body.tagIds.includes(tag_id))
@@ -107,7 +102,6 @@ router.put('/:id', (req, res) => {
           ]);
         });
       }
-
       return res.json(product);
     })
     .catch((err) => {
@@ -115,6 +109,11 @@ router.put('/:id', (req, res) => {
       res.status(400).json(err);
     });
 });
+
+
+
+
+
 
 router.delete('/:id', (req, res) => {
   // delete one product by its `id` value

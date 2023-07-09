@@ -17,6 +17,7 @@ router.get('/', (req, res) => {
   });
 });
 
+
 router.get('/:id', (req, res) => {
   // find a single tag by its 'id'
   Tag.findByPk(
@@ -32,25 +33,33 @@ router.get('/:id', (req, res) => {
   });
 });
 
+
   // create a new tag
-  router.post('/', (req, res) => {
-    Tag.create(req.body)
-    .then((newTag) => {
-      res.json(newTag);
-    })
-    .catch((err) => {
-      res.json(err);
-    });
+router.post('/', (req, res) => {
+  Tag.create(req.body)
+  .then((newTag) => {
+    res.json(newTag);
+  })
+  .catch((err) => {
+    res.json(err);
   });
-
-
-
-
-
-
-router.put('/:id', (req, res) => {
-  // update a tag's name by its `id` value
 });
+
+
+  // update a tag's name by its `id` value
+router.put('/:id', (req, res) => {
+  Tag.update(req.body, {
+    where: { id: req.params.id, },
+    })
+    .then((updatedTag) => {
+      res.json(updatedTag);
+    })
+      .catch((err) => res.json(err)); 
+});
+
+
+
+
 
 router.delete('/:id', (req, res) => {
   // delete on tag by its `id` value
