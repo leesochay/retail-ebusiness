@@ -18,9 +18,15 @@ router.get('/', (req, res) => {
 });
 
 router.get('/:id', (req, res) => {
-  // find a single tag by its `id`
-  // be sure to include its associated Product data
+  // find one category by its `id` value
+  Tag.findByPk(req.params.id).then((tagData) => {
+    res.json(tagData);
+  });
+  // be sure to include its associated Products
 });
+
+
+
 
 router.post('/', (req, res) => {
   // create a new tag
