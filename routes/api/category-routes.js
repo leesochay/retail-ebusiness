@@ -10,7 +10,7 @@ router.get('/', (req, res) => {
     { include: [Product] }
   )
   .then((categoryData) => {
-    res.status(200).res.json(categoryData);
+    res.json(categoryData);
   })
   .catch((err) => {
     res.json(err);
