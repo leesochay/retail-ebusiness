@@ -12,18 +12,14 @@
 ## Description
 This challenge is to build the back end for an e-commerce site. This challenge is relevant as e-commerce is a major method of purchasing and selling prodcuts and services, and therefore relevant to a future web developer career. This challenge addresses the need to understand the fundamental architecture of e-commerce sites. Beginning with starter code, this challenge is to succesfully connect with a MySQL database and be able to create, get, update, and delete product, category, and tag data for the e-commerce application.
 
-The connection utilizes the dotenv module. This module is used to keep sensitive information secure, such as usernames and passwords. It assigns this information in a separate file as variables that can be used to gain access to the e-commerce database.
+The connection utilizes the dotenv module. This module is used to keep sensitive information secure, such as usernames and passwords. It assigns this information in a separate file as variables that can be used to gain access to the e-commerce database. Once connected to the MySQL database, the application uses Seqeulize, a Node.js based Object Relational Mapper (ORM), to simplify and increase efficiency in the querying and handling the data in the e-commerce database.
 
-You’ll take a working Express.js API and configure it to use Sequelize to interact with a MySQL database.
-
-
-
-This application was built utilizing Node.js, Inquirer, and MySQL. 
+This challenge utlizes Node.js, Express, dotenv, MySQL, and Sequelize.
 
 User Story
-- AS A business owner
-- I WANT to be able to view and manage the departments, roles, and employees in my company
-- SO THAT I can organize and plan my business
+- AS A manager at an internet retail company
+ - I WANT a back end for my e-commerce website that uses the latest technologies
+ - SO THAT my company can compete with other e-commerce companies
 
 Acceptance Criteria
 - GIVEN a command-line application that accepts user input
