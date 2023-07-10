@@ -29,14 +29,25 @@ Acceptance Criteria
 - THEN a development database is created and is seeded with test data
 - WHEN I enter the command to invoke the application
 - THEN my server is started and the Sequelize models are synced to the MySQL database
+- WHEN I open API GET routes in Insomnia Core for categories, products, or tags
+- THEN the data for each of these routes is displayed in a formatted JSON
+- WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
+- THEN I am able to successfully create, update, and delete data in my database
 
-With this description and criteria, the application is built using one database with three tables (department, role, employee).
+With this description and criteria, the e-commerce database is built with four models (Category, Product, Tag, ProductTag).
 
 ## Installation
 1. This application utilizes [Node.js](https://nodejs.org/en).
-2. Install npm package [Inquirer](https://www.npmjs.com/package/inquirer) as the application to ask questions and capture the repsonses.
-3. Install npm package [Mysql2](https://www.npmjs.com/package/mysql2) which allow the connection and interaction with Mysql databases.
-4. Install npm package [Console.table](https://www.npmjs.com/package/console.table) which formats tables within the console.
+2. Install npm package [Express](https://www.npmjs.com/package/express) as the web framework to manage routing within the application.
+3.
+4. Install npm package [Mysql2](https://www.npmjs.com/package/mysql2) which allow the connection and interaction with Mysql databases.
+5.Install npm package [Express](https://www.npmjs.com/package/express) as the web framework to manage routing within the application.
+7.Install npm package [Console.table](https://www.npmjs.com/package/console.table) which formats tables within the console.
+
+
+Express is the most popular Node web framework, and is the underlying library for a number of other popular Node web frameworks. It provides mechanisms to: Write handlers for requests with different HTTP verbs at different URL paths (routes)
+
+
 
 ## Usage
 
