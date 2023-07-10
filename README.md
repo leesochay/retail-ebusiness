@@ -53,7 +53,8 @@ Demo Video:
  - Run npm start to start the application.
  - Uitilize [Insomnia](https://insomnia.rest/products/insomnia) as the tool to test GET, POST, PUT, and DELETE functionality. 
 
-![InitialScreenshot]()
+Get all tags screenshot:
+![Get all tags Screenshot](https://github.com/leesochay/retail-ebusiness/blob/85c09682da2ea04ec7c202fd3ffda3558c46c412/images/GET-all-tags-300.png)
 
 ![All Departments]()
 
