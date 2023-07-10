@@ -65,11 +65,9 @@ Demo Video:
 
 
 ## Contributing
-Many Resources to help me along the way:
-- [MySQL](https://www.mysql.com/): Update Statement, SELECT Statement
-- npm Documentation: [Inquirer](https://www.npmjs.com/package/inquirer), [MySQL2](https://www.npmjs.com/package/mysql2)
-- [W3 Schools - MySQL](https://www.w3schools.com/mysql/default.asp): SELECT Statement, UPDATE, INNER JOIN, LEFT JOIN, INSERT-SELECT, Constraints, Auto_Increment, Data Types, , Functions, CONCAT()
-- [Node.js MySQL](https://www.w3schools.com/nodejs/nodejs_mysql.asp)
+
+The main resource for assisting in my submission for this challenge was the Module 13 Class Activities.
+These helped form the logic and syntax of the code utilizted in this project.
 - [W3 Schools - JavaScript](https://www.w3schools.com/js/default.asp)
 - JavaScript: map(), forEach()
 - [MDN Web docs](https://developer.mozilla.org/en-US/): forEach(), map()
