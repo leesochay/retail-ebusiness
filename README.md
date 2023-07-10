@@ -39,41 +39,30 @@ With this description and criteria, the e-commerce database is built with four m
 ## Installation
 1. This application utilizes [Node.js](https://nodejs.org/en).
 2. Install npm package [Express](https://www.npmjs.com/package/express) as the web framework to manage routing within the application.
-3.
+3. Install npm package [dotenv](https://www.npmjs.com/package/dotenv) to store the database name, user, and password in a separate file for connection.
 4. Install npm package [Mysql2](https://www.npmjs.com/package/mysql2) which allow the connection and interaction with Mysql databases.
-5.Install npm package [Express](https://www.npmjs.com/package/express) as the web framework to manage routing within the application.
-7.Install npm package [Console.table](https://www.npmjs.com/package/console.table) which formats tables within the console.
-
-
-
-
-
+5. Install npm package [Sequelize](https://www.npmjs.com/package/sequelize) as the tool to simplify the querying with and handling of the MySQL database.
 
 ## Usage
 
-Demo Video: [Track-Our-Team Demo](https://drive.google.com/file/d/1Bs7E0_f77cjZONEGXeFnJ9keiH-Yc7VM/view)
+Demo Video:
 
-This is a command-line interface application, so all of the start up methods, usage, and interaction is through the command-line (specifically Git Bash for me).
  - Sign in to mysql to provide structure and initial data to the database and tables.
  - Source schema.sql which provides structure for the database and tables.
- - Source seeds.sql which provides initial data within the tables.
- - Quit mysql and start the appliocation (in the correct directory) by entering node server.js
+ - Quit mysql.
+ - Run npm run seed to provide initial data to the e-commerce database.
+ - Run npm start to start the application.
+ - Uitilize [Insomnia](https://insomnia.rest/products/insomnia) as the tool to test GET, POST, PUT, and DELETE functionality. 
 
-![InitialScreenshot](https://github.com/leesochay/track-our-team/blob/main/images/Initial_screenshot.png)
+![InitialScreenshot]()
 
-![All Departments](https://github.com/leesochay/track-our-team/blob/main/images/All_departments_screenshot.png)
+![All Departments]()
 
-![All Roles](https://github.com/leesochay/track-our-team/blob/main/images/View_all_roles_screenshot.png)
 
-![All Employees](https://github.com/leesochay/track-our-team/blob/main/images/All_employees_screenshot.png)
 
-![Add Department](https://github.com/leesochay/track-our-team/blob/main/images/Add_department.png)
 
-![Add Role](https://github.com/leesochay/track-our-team/blob/main/images/Add_role.png)
 
-![Add Employee](https://github.com/leesochay/track-our-team/blob/main/images/Add_employee.png)
 
-![Update Employee Role](https://github.com/leesochay/track-our-team/blob/main/images/Update_employee_role.png)
 
 ## Contributing
 Many Resources to help me along the way:
