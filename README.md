@@ -7,7 +7,6 @@
   - [Installation](#installation)
   - [Usage](#usage)
   - [Contributing](#contributing)
-  - [License](#license)
 
 ## Description
 This challenge is to build the back end for an e-commerce site. This challenge is relevant as e-commerce is a major method of purchasing and selling prodcuts and services, and therefore relevant to a future web developer career. This challenge addresses the need to understand the fundamental architecture of e-commerce sites. Beginning with starter code, this challenge is to succesfully connect with a MySQL database and be able to create, get, update, and delete product, category, and tag data for the e-commerce application.
@@ -68,7 +67,3 @@ Demo Video:
 
 The main resource for assisting in my submission for this challenge was the Module 13 Class Activities.
 These helped form the logic and syntax of the code utilizted in this project.
-- [W3 Schools - JavaScript](https://www.w3schools.com/js/default.asp)
-- JavaScript: map(), forEach()
-- [MDN Web docs](https://developer.mozilla.org/en-US/): forEach(), map()
-- [Convert an Object to an Array in JavaScript](https://www.javascripttutorial.net/object/convert-an-object-to-an-array-in-javascript/)
