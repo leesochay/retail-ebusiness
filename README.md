@@ -5,7 +5,7 @@
 ## Table of Contents
   - [Description](#description)
   - [Installation](#installation)
-  - [Usage](#usage)
+  - [Demo](#demo)
   - [Contributing](#contributing)
 
 ## Description
@@ -42,10 +42,7 @@ With this description and criteria, the e-commerce database is built with four m
 4. Install npm package [Mysql2](https://www.npmjs.com/package/mysql2) which allow the connection and interaction with Mysql databases.
 5. Install npm package [Sequelize](https://www.npmjs.com/package/sequelize) as the tool to simplify the querying with and handling of the MySQL database.
 
-## Usage
-
-Demo Video:
-
+How to start the application:
  - Sign in to mysql to provide structure and initial data to the database and tables.
  - Source schema.sql which provides structure for the database and tables.
  - Quit mysql.
@@ -53,17 +50,9 @@ Demo Video:
  - Run npm start to start the application.
  - Uitilize [Insomnia](https://insomnia.rest/products/insomnia) as the tool to test GET, POST, PUT, and DELETE functionality. 
 
-Get all tags screenshot:
+## Demo
 
-![Get all tags Screenshot](https://github.com/leesochay/retail-ebusiness/blob/5f5a7acf3b24afc32f3f1bcf11be014ff0c496a5/images/GET-all.gif)
-
-![All Departments]()
-
-
-
-
-
-
+Please see the demp video here: 
 
 ## Contributing
 
