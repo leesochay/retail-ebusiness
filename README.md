@@ -45,7 +45,7 @@ With this description and criteria, the e-commerce database is built with four m
 7.Install npm package [Console.table](https://www.npmjs.com/package/console.table) which formats tables within the console.
 
 
-Express is the most popular Node web framework, and is the underlying library for a number of other popular Node web frameworks. It provides mechanisms to: Write handlers for requests with different HTTP verbs at different URL paths (routes)
+
 
 
 
