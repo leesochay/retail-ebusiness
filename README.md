@@ -54,7 +54,8 @@ Demo Video:
  - Uitilize [Insomnia](https://insomnia.rest/products/insomnia) as the tool to test GET, POST, PUT, and DELETE functionality. 
 
 Get all tags screenshot:
-![Get all tags Screenshot](https://github.com/leesochay/retail-ebusiness/blob/85c09682da2ea04ec7c202fd3ffda3558c46c412/images/GET-all-tags-300.png)
+
+![Get all tags Screenshot](https://github.com/leesochay/retail-ebusiness/blob/5f5a7acf3b24afc32f3f1bcf11be014ff0c496a5/images/GET-all.gif)
 
 ![All Departments]()
 
