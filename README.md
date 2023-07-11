@@ -52,7 +52,7 @@ How to start the application:
 
 ## Demo
 
-Please see the demp video here: 
+Please see the demp video here: [retail-ebusiness Demo Video](https://drive.google.com/file/d/18pLLUU4vvqO3bFxzADbPLRO5oOgVYY41/view)
 
 ## Contributing
 
